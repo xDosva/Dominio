@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolutions - Soluciones Tecnológicas</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Logo" height="40" class="d-inline-block align-top me-2">
+                TechSolutions
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quienes-somos.html">Quiénes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb" class="bg-light py-3">
+        <div class="container">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Quiénes Somos</li>
+            </ol>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <main class="py-5">
+        <div class="container">
+            <h1 class="text-center mb-5 fw-bold">Quiénes Somos</h1>
+
+            <!-- Misión y Visión -->
+            <div class="row g-4 mb-5">
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-bullseye text-primary mb-3 fs-1"></i>
+                            <h3 class="card-title mb-3">Misión</h3>
+                            <p class="card-text">Proporcionar soluciones tecnológicas innovadoras que impulsen el crecimiento de nuestros clientes, mediante un equipo altamente calificado y comprometido con la excelencia.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-eye text-primary mb-3 fs-1"></i>
+                            <h3 class="card-title mb-3">Visión</h3>
+                            <p class="card-text">Ser reconocidos como líderes en transformación digital en la región, destacando por nuestra capacidad de adaptación y calidad de servicio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Historia -->
+            <div class="card border-0 shadow-sm mb-5">
+                <div class="card-body p-4">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h2 class="fw-bold mb-4">Nuestra Historia</h2>
+                            <p>Fundada en 2015, TechSolutions comenzó como un pequeño equipo de desarrolladores apasionados por la tecnología. Hoy contamos con más de 50 profesionales especializados en diversas áreas tecnológicas.</p>
+                            <p>Hemos trabajado con más de 200 clientes satisfechos, ayudándolos a alcanzar sus objetivos mediante soluciones a medida.</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="images/historia.jpg" alt="Nuestra historia" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2023 TechSolutions. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (necesario para el navbar colapsable) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
